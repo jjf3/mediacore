@@ -6,25 +6,25 @@ A self-hosted media server solution with automated TV/Movie downloads, Live TV D
 ## Features
 
 ### Self-Contained Media System
-- Local M3U and XML files
-- Self-hosted EPG data server
-- Integrated WebGrab+ for EPG updates
-- Custom logo/data server
+- Local M3U and XML files - Created and In Progress of Configuring
+- Self-hosted EPG data server - Created and In Progress of Configuring
+- Integrated WebGrab+ for EPG updates - To do 
+- Custom logo/data server - to do
 
 ### Content Automation
-- Automated TV show tracking (Sonarr)
-- Automated movie downloads (Radarr)
-- Configurable quality profiles
-- Automatic subtitle management
-- VPN integration for privacy
+- Automated TV show tracking (Sonarr) - Complete
+- Automated movie downloads (Radarr) - Complete
+- Configurable quality profiles - Complete
+- Automatic subtitle management - Complete
+  
 
-### Live TV & DVR
-- Channel organization by category
-- EPG data management
-- DVR functionality for recording
-- Threadfin and XTeve integration
+### Live TV & DVR 
+- Channel organization by category - In Progress
+- EPG data management - In Progress
+- DVR functionality for recording - In Progress
+- Threadfin and XTeve integration - In Progress
 
-### Reliability & Management
+### Reliability & Management - This is done by the Synology NAS
 - Container health monitoring
 - Automatic backups
 - Permission management
