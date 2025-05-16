@@ -56,7 +56,6 @@ Threadfin2: http://your-nas-ip:34445 (local files and server)
 Threafin: http://your-nas-ip:34401/web/ (linked files and EPGBest)
 
 
-
 Configuration
 See the Configuration Guide for detailed setup instructions.
 Maintenance
