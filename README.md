@@ -48,8 +48,6 @@ A self-hosted media server solution with automated TV/Movie downloads, Live TV D
 - Emby: http://your-nas-ip:8096/
 
 ## Configuration
-See the Configuration Guide for detailed setup instructions.
-
 Below you'll find detailed setup guides for each component of the MediaCore system:
 
 | Component | Description | Status | Documentation |
