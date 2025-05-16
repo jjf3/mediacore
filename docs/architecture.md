@@ -6,7 +6,7 @@ This repository manages a self-hosted media server ecosystem with automated TV/M
 ## Architecture Diagram
 ```
 ┌───────────────────────────────────────────────────────────────────┐
-│                      Synology NAS (34TB)                          │
+│                      Synology NAS (80TB)                          │
 │                                                                   │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌──────────┐  │
 │  │   Docker    │  │  File Mgmt  │  │    Backup   │  │  Security│  │
