@@ -6,10 +6,11 @@ Threadfin2 is responsible for managing local IPTV files and server in MediaCore.
 
 Threadfin2 is configured to use the following directory structure:
 
-- **Config Path**: `/volume1/docker/threadfin2/config`
-- **IPTV Path**: `/volume1/media/iptv`
+- **Config Path**: `/volume3/docker/threadfin/conf`
+- **IPTV Path**: `/home/threadfin/conf/channeltest.m3u`
+- **Guide Path**:  `/home/threadfin/conf/custom_epg.xml`
 
-## Installation Details
+## Installation Detail
 
 - **Docker Volume**: `/volume1/docker/threadfin2/config`
 - **Docker Port**: 34445
