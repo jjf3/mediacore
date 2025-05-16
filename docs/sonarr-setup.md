@@ -7,14 +7,12 @@ Sonarr is responsible for managing and automating TV show downloads in MediaCore
 Sonarr is configured to use the following directory structure:
 
 - **Download Path**: `/volume1/downloads/completed/tv`
-- **TV Library Path**: `/volume1/media/tv`
-
-**Folders:**
+- **TV Library Path**: `
 
 /volume2/Data/downloads
 /volume2/Data/TV
 /volume3/Data2/
-/volume4/TV4
+/volume4/TV4`
 
 ## Installation Details
 
