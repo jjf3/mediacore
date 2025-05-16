@@ -68,20 +68,60 @@ MediaCore integrates multiple open-source services to create a complete media se
 ## Configuration
 Below you'll find detailed setup guides for each component of the MediaCore system:
 
-| Component | Description | Status | Documentation |
-|-----------|-------------|--------|---------------|
-| Sonarr | TV show management and automation | Complete | [Setup Guide](./docs/sonarr-setup.md) |
-| Radarr | Movie management and automation | Complete | [Setup Guide](./docs/radarr-setup.md) |
-| Jackett | Torrent indexer proxy | Complete | [Setup Guide](./docs/jackett-setup.md) |
-| Plex | Media server and playback | Complete | [Setup Guide](./docs/plex-setup.md) |
-| Emby | Media server and playback | Complete | [Setup Guide](./docs/emby-setup.md) |
-| Original Threadfin | M3U/EPG proxy | Conmplete | [Setup Guide](./docs/threadfin-setup.md) |
-| Second Threadfin | M3U/EPG proxy | In Progress | [Setup Guide](./docs/threadfin2-setup.md) |
-| Transmission | Download client | Complete | [Setup Guide](./docs/transmission-setup.md) |
-| WebGrab+ | EPG data acquisition | To Do | [Setup Guide](./docs/webgrab-setup.md) |
+## Component Documentation
+
+| Component | Purpose | Status | Documentation |
+|-----------|---------|--------|---------------|
+| Sonarr | TV show management | ✅ Complete | [Setup Guide](./docs/sonarr-setup.md) |
+| Radarr | Movie management | ✅ Complete | [Setup Guide](./docs/radarr-setup.md) |
+| Jackett | Indexer proxy | ✅ Complete | [Setup Guide](./docs/jackett-setup.md) |
+| Plex | Media server | ✅ Complete | [Setup Guide](./docs/plex-setup.md) |
+| Emby | Media server | ✅ Complete | [Setup Guide](./docs/emby-setup.md) |
+| Threadfin | M3U/EPG proxy | ✅ Complete | [Setup Guide](./docs/threadfin-setup.md) |
+| Threadfin2 | Additional proxy | 🟡 In Progress | [Setup Guide](./docs/threadfin2-setup.md) |
+| Transmission | Download client | ✅ Complete | [Setup Guide](./docs/transmission-setup.md) |
+| WebGrab+ | EPG data acquisition | 🔴 To Do | [Setup Guide](./docs/webgrab-setup.md) |
 
 ## Architecture
-The system uses Docker containers orchestrated with Docker Compose. See the Architecture Document [Setup Guide](./docs/architecture.md) for details.
+
+MediaCore uses a containerized architecture with Docker Compose for orchestration:
+
+```
+┌─────────────────────────────┐
+│      Media Management       │
+│  ┌─────────┐   ┌─────────┐  │
+│  │  Sonarr │   │ Radarr  │  │
+│  └─────────┘   └─────────┘  │
+├─────────────────────────────┤
+│      Download System        │
+│  ┌─────────┐   ┌─────────┐  │
+│  │ Jackett │   │   VPN   │  │
+│  └─────────┘   └─────────┘  │
+│        ┌─────────────┐      │
+│        │Transmission │      │
+│        └─────────────┘      │
+├─────────────────────────────┤
+│         IPTV System         │
+│  ┌─────────┐   ┌─────────┐  │
+│  │Threadfin│   │WebGrab+ │  │
+│  └─────────┘   └─────────┘  │
+├─────────────────────────────┤
+│       Media Servers         │
+│  ┌─────────┐   ┌─────────┐  │
+│  │  Plex   │   │  Emby   │  │
+│  └─────────┘   └─────────┘  │
+└─────────────────────────────┘
+```
+
+For detailed architecture information, see the [Architecture Document](./docs/architecture.md).
+
+## Troubleshooting
+
+Common issues and their solutions:
+
+- **Services not starting**: Check Docker logs with `docker-compose logs [service_name]`
+- **Media not showing up**: Verify file permissions and folder structure
+- **EPG data missing**: Check WebGrab+ configuration and logs
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
