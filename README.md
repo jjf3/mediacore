@@ -1,28 +1,46 @@
-# Mediacore
+# MediaCore
 
 MediaCore is a comprehensive, self-hosted media management solution that combines automated content acquisition with robust IPTV/DVR capabilities.
-A self-hosted media server solution with automated TV/Movie downloads, Live TV DVR functionality, and comprehensive media management.
+
+![Project Status](https://img.shields.io/badge/status-beta-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## Overview
+
+MediaCore integrates multiple open-source services to create a complete media server solution featuring:
+- Automated TV shows and movies downloads
+- Live TV with DVR functionality
+- EPG (Electronic Program Guide) management
+- Multiple media server options for playback
 
 ## Features
 
-### Self-Contained Media System
-- Local M3U and XML files - Created and In Progress of Configuring
-- Self-hosted EPG data server - Created and In Progress of Configuring
-- Integrated WebGrab+ for EPG updates - To do 
-- Custom logo/data server - to do
+| Feature | Description | Status |
+|---------|-------------|--------|
+| **Self-Contained Media System** | | |
+| Local M3U and XML files | Core playlist and metadata files | 🟡 In Progress |
+| Self-hosted EPG data server | Local EPG management | 🟡 In Progress |
+| Integrated WebGrab+ | EPG updates automation | 🔴 To Do |
+| Custom logo/data server | Artwork and metadata management | 🔴 To Do |
+| **Content Automation** | | |
+| Sonarr integration | TV show tracking and downloads | ✅ Complete |
+| Radarr integration | Movie downloads | ✅ Complete |
+| Quality profiles | Configurable media quality | ✅ Complete |
+| Subtitle management | Automatic subtitle downloads | ✅ Complete |
+| **Live TV & DVR** | | |
+| Channel categorization | Organization by content type | 🟡 In Progress |
+| EPG data management | Program guide handling | 🟡 In Progress |
+| DVR functionality | Live TV recording | 🟡 In Progress |
+| Threadfin and XTeve | IPTV proxy integration | 🟡 In Progress |
+| **Reliability & Management** | Provided by Synology NAS | ✅ Complete |
 
-### Content Automation
-- Automated TV show tracking (Sonarr) - Complete
-- Automated movie downloads (Radarr) - Complete
-- Configurable quality profiles - Complete
-- Automatic subtitle management - Complete
-  
+## Installation
 
-### Live TV & DVR 
-- Channel organization by category - In Progress
-- EPG data management - In Progress
-- DVR functionality for recording - In Progress
-- Threadfin and XTeve integration - In Progress
+### Prerequisites
+- Synology NAS or similar device
+- Docker and Docker Compose installed
+- Minimum 80 TB storage recommended (60TB main + 20TB backup)
+
 
 ### Reliability & Management - This is done by the Synology NAS
 - Container health monitoring
