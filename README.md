@@ -44,22 +44,7 @@ Prerequisites
 
 Synology NAS or similar device
 Docker and Docker Compose installed
-Minimum 34TB storage recommended (20TB main + 14TB backup)
-
-Installation
-
-Clone this repository:
-
-bashgit clone https://github.com/yourusername/mediaserver.git
-cd mediaserver
-
-Run the setup script:
-
-bashsudo ./setup.sh
-
-Start the services:
-
-bashdocker-compose up -d
+Minimum 80 TB storage recommended (60TB main + 20TB backup)
 
 Access the services:
 
@@ -67,8 +52,8 @@ Sonarr: http://your-nas-ip:8989
 Radarr: http://your-nas-ip:8310
 Jackett: http://your-nas-ip:9117
 Transmission: http://your-nas-ip:9091/web
-Threadfin: http://your-nas-ip:34401
-XTeve: http://your-nas-ip:34400/web/
+Threadfin2: http://your-nas-ip:34445 (local files and server)
+Threafin: http://your-nas-ip:34401/web/ (linked files and EPGBest)
 
 
 
