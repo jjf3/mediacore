@@ -5,6 +5,24 @@ MediaCore is a comprehensive, self-hosted media management solution that combine
 ![Project Status](https://img.shields.io/badge/status-beta-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
+<details open>
+<summary>📋 <b>Table of Contents</b></summary>
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+  - [Content Automation](#content-automation)
+  - [Live TV & DVR](#live-tv--dvr)
+  - [Self-Contained Media System](#self-contained-media-system)
+  - [Reliability & Management](#reliability--management)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Quick Start](#quick-start)
+- [Component Documentation](#component-documentation)
+- [Architecture](#architecture)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+</details>
+
 ## Overview
 
 MediaCore integrates multiple open-source services to create a complete media server solution featuring:
