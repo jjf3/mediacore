@@ -1,4 +1,4 @@
-# mediacore
+# Mediacore
 
 MediaCore is a comprehensive, self-hosted media management solution that combines automated content acquisition with robust IPTV/DVR capabilities.
 A self-hosted media server solution with automated TV/Movie downloads, Live TV DVR functionality, and comprehensive media management.
