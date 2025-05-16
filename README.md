@@ -50,6 +50,19 @@ A self-hosted media server solution with automated TV/Movie downloads, Live TV D
 ## Configuration
 See the Configuration Guide for detailed setup instructions.
 
+Below you'll find detailed setup guides for each component of the MediaCore system:
+
+| Component | Description | Status | Documentation |
+|-----------|-------------|--------|---------------|
+| Sonarr | TV show management and automation | Complete | [Setup Guide](./docs/sonarr-setup.md) |
+| Radarr | Movie management and automation | Complete | [Setup Guide](./docs/radarr-setup.md) |
+| Jackett | Torrent indexer proxy | Complete | [Setup Guide](./docs/jackett-setup.md) |
+| Plex | Media server and playback | Complete | [Setup Guide](./docs/plex-setup.md) |
+| Emby | Media server and playback | Complete | [Setup Guide](./docs/emby-setup.md) |
+| Threadfin | M3U/EPG proxy | In Progress | [Setup Guide](./docs/threadfin-setup.md) |
+| Transmission | Download client | Complete | [Setup Guide](./docs/transmission-setup.md) |
+| WebGrab+ | EPG data acquisition | To Do | [Setup Guide](./docs/webgrab-setup.md) |
+
 ## Maintenance
 See the Maintenance Guide for routine maintenance tasks.
 
