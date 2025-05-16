@@ -31,7 +31,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 - EPG (Electronic Program Guide) management
 - Multiple media server options for playback
 
-## Features
+## Key Features
 
 | Feature | Description | Status |
 |---------|-------------|--------|
