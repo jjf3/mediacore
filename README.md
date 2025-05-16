@@ -17,7 +17,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| **Self-Contained Media System** | <div align="center">*Core media organization and metadata components*</div> | |
+| | <div align="center">**Self-Contained Media System**</div> | |
 | Local M3U and XML files | Core playlist and metadata files | 🟡 In Progress |
 | Self-hosted EPG data server | Local EPG management | 🟡 In Progress |
 | Integrated WebGrab+ | EPG updates automation | 🔴 To Do |
