@@ -68,7 +68,7 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 See the Maintenance Guide for routine maintenance tasks.
 
 ## Architecture
-The system uses Docker containers orchestrated with Docker Compose. See the Architecture Document for details.
+The system uses Docker containers orchestrated with Docker Compose. See the Architecture Document [Setup Guide](./docs/architecture.md) for details.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
