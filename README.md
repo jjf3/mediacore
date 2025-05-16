@@ -44,6 +44,8 @@ A self-hosted media server solution with automated TV/Movie downloads, Live TV D
 - Transmission: http://your-nas-ip:9091/web
 - Threadfin2: http://your-nas-ip:34445 (local files and server)
 - Threafin: http://your-nas-ip:34401/web/ (linked files and EPGBest)
+- Plex: http://your-nas-ip:32400/
+- Emby: http://your-nas-ip:8096/
 
 ## Configuration
 See the Configuration Guide for detailed setup instructions.
