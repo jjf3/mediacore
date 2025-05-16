@@ -57,7 +57,6 @@ This repository manages a self-hosted media server ecosystem with automated TV/M
 2. **Automation Enhancements**
    - Automated quality selection
    - Subtitle management
-   - VPN integration
    - CI/CD pipeline for updates
 
 3. **Reliability Improvements**
