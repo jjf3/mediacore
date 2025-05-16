@@ -27,7 +27,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 | Radarr integration | Movie downloads | ✅ Complete |
 | Quality profiles | Configurable media quality | ✅ Complete |
 | Subtitle management | Automatic subtitle downloads | ✅ Complete |
-| **Live TV & DVR** | | |
+| | <div align="center">**Live TV & DVR**</div> | |
 | Channel categorization | Organization by content type | 🟡 In Progress |
 | EPG data management | Program guide handling | 🟡 In Progress |
 | DVR functionality | Live TV recording | 🟡 In Progress |
