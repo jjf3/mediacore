@@ -9,6 +9,13 @@ Sonarr is configured to use the following directory structure:
 - **Download Path**: `/volume1/downloads/completed/tv`
 - **TV Library Path**: `/volume1/media/tv`
 
+**Folders:**
+
+/volume2/Data/downloads
+/volume2/Data/TV
+/volume3/Data2/
+/volume4/TV4
+
 ## Installation Details
 
 - **Docker Volume**: `/volume1/docker/sonarr/config`
