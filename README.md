@@ -60,7 +60,7 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 | Plex | Media server and playback | Complete | [Setup Guide](./docs/plex-setup.md) |
 | Emby | Media server and playback | Complete | [Setup Guide](./docs/emby-setup.md) |
 | Original Threadfin | M3U/EPG proxy | Conmplete | [Setup Guide](./docs/threadfin-setup.md) |
-| Second Threadfin | M3U/EPG proxy | Conmplete | [Setup Guide](./docs/threadfin2-setup.md) |
+| Second Threadfin | M3U/EPG proxy | In Progress | [Setup Guide](./docs/threadfin2-setup.md) |
 | Transmission | Download client | Complete | [Setup Guide](./docs/transmission-setup.md) |
 | WebGrab+ | EPG data acquisition | To Do | [Setup Guide](./docs/webgrab-setup.md) |
 
