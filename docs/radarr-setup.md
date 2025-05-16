@@ -9,6 +9,9 @@ Radarr is configured to use the following directory structure:
 - **Download Path**: `/volume1/downloads/completed/movies`
 - **Movies Library Path**: `/volume1/media/movies`
 
+**Folders:**
+/volume4/Movies
+
 ## Installation Details
 
 - **Docker Volume**: `/volume1/docker/radarr/config`
