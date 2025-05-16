@@ -22,8 +22,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 | Self-hosted EPG data server | Local EPG management | 🟡 In Progress |
 | Integrated WebGrab+ | EPG updates automation | 🔴 To Do |
 | Custom logo/data server | Artwork and metadata management | 🔴 To Do |
-| | <div align="center">**Live TV & DVR**</div> | |
-| **Content Automation** | | |
+| |  <div align="center">**Content Automation**</div> | |
 | Sonarr integration | TV show tracking and downloads | ✅ Complete |
 | Radarr integration | Movie downloads | ✅ Complete |
 | Quality profiles | Configurable media quality | ✅ Complete |
