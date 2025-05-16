@@ -12,18 +12,18 @@ Threadfin2 is configured to use the following directory structure:
 
 ## Installation Detail
 
-- **Docker Volume**: `/volume1/docker/threadfin2/config`
+- **Docker Volume**: `/volume3/docker/threadfin`
 - **Docker Port**: 34445
-- **Docker Network**: media_network
 
 ## Configuration Screenshots
 
 ### IPTV Settings
-![Threadfin2 Settings](../images/threadfin2/settings.png)
 
 ## Integration with Other Services
 
-- **Plex Integration**: How it connects to media servers
+- **Plex Integration**:
+
+[place holder for plex easier instructions]
 
 ## Troubleshooting
 
