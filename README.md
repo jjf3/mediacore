@@ -64,14 +64,8 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 | Transmission | Download client | Complete | [Setup Guide](./docs/transmission-setup.md) |
 | WebGrab+ | EPG data acquisition | To Do | [Setup Guide](./docs/webgrab-setup.md) |
 
-## Maintenance
-See the Maintenance Guide for routine maintenance tasks.
-
 ## Architecture
 The system uses Docker containers orchestrated with Docker Compose. See the Architecture Document [Setup Guide](./docs/architecture.md) for details.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
