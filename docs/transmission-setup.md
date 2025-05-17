@@ -6,8 +6,9 @@ Transmission is responsible for managing torrent downloads in MediaCore.
 
 Transmission is configured to use the following directory structure:
 
-- **Download Path**: `/volume1/downloads`
-- **Completed Path**: `/volume1/downloads/completed`
+- **Download Path**: `/volume3/Data2/TV` (or whatever your largest directory is. 
+- **Incomplete Path**: `/volume3/Data2/TV/incomplete`
+- **Optional Path(s)** volume `/volume4/TV4, /volume2/Data/TV` or wherever you have free space.
 
 ## Installation Details
 
