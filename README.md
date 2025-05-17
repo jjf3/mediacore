@@ -93,8 +93,8 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 | Sonarr | TV show management | ✅ Complete | [Setup Guide](./docs/sonarr-setup.md) |
 | Radarr | Movie management | ✅ Complete | [Setup Guide](./docs/radarr-setup.md) |
 | Jackett | Indexer proxy | ✅ Complete | [Setup Guide](./docs/jackett-setup.md) |
-| Plex | Media server | ✅ Complete | [Setup Guide](./docs/plex-setup.md) |
-| Emby | Media server | ✅ Complete | [Setup Guide](./docs/emby-setup.md) |
+| Plex | Media server | 🔴 To Do | [Setup Guide](./docs/plex-setup.md) |
+| Emby | Media server | 🔴 To Do | [Setup Guide](./docs/emby-setup.md) |
 | Threadfin | M3U/EPG proxy | ✅ Complete | [Setup Guide](./docs/threadfin-setup.md) |
 | Threadfin2 | Additional proxy | ✅ Complete | [Setup Guide](./docs/threadfin2-setup.md) |
 | Transmission | Download client | ✅ Complete | [Setup Guide](./docs/transmission-setup.md) |
