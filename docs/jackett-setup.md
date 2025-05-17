@@ -6,18 +6,18 @@ Jackett is responsible for managing indexer connections in MediaCore.
 
 Jackett is configured to use the following directory structure:
 
-- **Config Path**: `/volume1/docker/jackett/config`
+- **Config Path**: `/volume2/`
 
 ## Installation Details
 
-- **Docker Volume**: `/volume1/docker/jackett/config`
+- **Docker Volume**: `/volume2/`
 - **Docker Port**: 9117
-- **Docker Network**: media_network
+- **Docker Network**: syno community
 
 ## Configuration Screenshots
 
 ### Indexer Settings
-![Jackett Indexers](../images/jackett/indexers.png)
+This was installed via Synology Package Center on Volume2.
 
 ## Integration with Other Services
 
