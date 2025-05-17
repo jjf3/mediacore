@@ -46,10 +46,10 @@ MediaCore integrates multiple open-source services to create a complete media se
 | Quality profiles | Configurable media quality | ✅ Complete |
 | Subtitle management | Automatic subtitle downloads | ✅ Complete |
 | | <div align="center">**Live TV & DVR**</div> | |
-| Channel categorization | Organization by content type | 🟡 In Progress |
-| EPG data management | Program guide handling | 🟡 In Progress |
+| Channel categorization | Organization by content type | ✅ Complete |
+| EPG data management | Program guide handling | ✅ Complete |
 | DVR functionality | Live TV recording | 🟡 In Progress |
-| Threadfin and XTeve | IPTV proxy integration | 🟡 In Progress |
+| Threadfin and XTeve | IPTV proxy integration | ✅ Complete |
 | **Reliability & Management** | Provided by Synology NAS | ✅ Complete |
 
 ## Installation
