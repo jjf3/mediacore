@@ -17,7 +17,7 @@ Sonarr is configured to use the following directory structure:
 
 - **Docker Volume**: `/volume1/docker/sonarr/config`
 - **Docker Port**: 8989
-- **Docker Network**: media_network
+- **Docker Network**: Syno community
 
 ## Configuration Screenshots
 
