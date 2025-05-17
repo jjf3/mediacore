@@ -10,7 +10,7 @@ Sonarr is configured to use the following directory structure:
 - **TV Library Path**: `
 /volume2/Data/downloads
 /volume2/Data/TV
-/volume3/Data2/
+/volume3/Data2/TV
 /volume4/TV4`
 
 ## Installation Details
