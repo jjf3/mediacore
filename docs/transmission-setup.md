@@ -11,22 +11,18 @@ Transmission is configured to use the following directory structure:
 
 ## Installation Details
 
-- **Docker Volume**: `/volume1/docker/transmission/config`
+- **Docker Volume**: `/volume2/`
 - **Docker Port**: 9091
 - **Docker Network**: media_network
 
 ## Configuration Screenshots
 
 ### Download Settings
-![Transmission Settings](../images/transmission/settings.png)
+This was installed via Synology Package Center on Volume2.
 
 ## Integration with Other Services
 
-- **VPN Configuration**: Details of VPN setup
+For a better torrent management experience I highly recommend setting up Transgui: https://github.com/transmission-remote-gui/transgui
+
 - **Sonarr/Radarr Integration**: How it connects
-
-## Troubleshooting
-
-- **Common Issue**: VPN connectivity
-  - **Solution**: Check VPN status
 
