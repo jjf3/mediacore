@@ -22,8 +22,9 @@ This was installed via Synology Package Center on Volume3.
 
 ## Integration with Other Services
 
-### Jackett Integration
-- **URL**: http://your-nas-ip:8310
+### Jackett/Bazarr Integration
+- Jacket: [http://your-nas-ip:9117](http://your-nas-ip:9117)
+- Bazarr: [http://your-nas-ip:6767](http://your-nas-ip:6767)
 
 ### Transmission Integration
 - **Host**: transmission
