@@ -13,7 +13,7 @@ Radarr is configured to use the following directory structure:
 
 - **Docker Volume**: `/volume3`
 - **Docker Port**: 8310
-- **Docker Network**: media_network
+- **Docker Network**: Syno community
 
 ## Configuration Screenshots
 
