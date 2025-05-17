@@ -67,12 +67,6 @@ MediaCore integrates multiple open-source services to create a complete media se
 - Detailed logging
 
 ## Quick Start
-
-### Prerequisites
-- Synology NAS or similar device
-- Docker and Docker Compose installed
-- Minimum 80 TB storage recommended (60TB main + 20TB backup)
-
 ### Access the services:
 - Sonarr: http://your-nas-ip:8989
 - Radarr: http://your-nas-ip:8310
