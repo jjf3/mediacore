@@ -14,7 +14,7 @@ Transmission is configured to use the following directory structure:
 
 - **Docker Volume**: `/volume2/`
 - **Docker Port**: 9091
-- **Docker Network**: media_network
+- **Docker Network**: syno community
 
 ## Configuration Screenshots
 
