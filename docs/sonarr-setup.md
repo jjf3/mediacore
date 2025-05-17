@@ -27,7 +27,7 @@ This was installed via Synology Package Center on Volume2.
 ## Integration with Other Services
 
 ### Jackett Integration
-- **URL**: http://jackett:9117
+- **URL**: Sonarr: http://your-nas-ip:8989
 
 ### Transmission Integration
 - **Host**: transmission
