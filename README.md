@@ -93,7 +93,7 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 | Threadfin2 | Additional proxy | 🟡 In Progress | [Setup Guide](./docs/threadfin2-setup.md) |
 | Transmission | Download client | ✅ Complete | [Setup Guide](./docs/transmission-setup.md) |
 | WebGrab+ | EPG data acquisition | 🔴 To Do | [Setup Guide](./docs/webgrab-setup.md) |
-| images | Add Images to Docs and Setup Guides | 🔴 To Do | [Images Link](./images) |
+| images | Add Images to Docs and Setup Guides | 🔴 To Do |  |
 
 ## Architecture
 
