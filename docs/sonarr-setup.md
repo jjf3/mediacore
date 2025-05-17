@@ -22,7 +22,7 @@ Sonarr is configured to use the following directory structure:
 ## Configuration Screenshots
 
 ### Media Management Settings
-![Sonarr Media Management](../images/sonarr/media-management.png)
+This was installed via Synology Package Center on Volume2.
 
 ## Integration with Other Services
 
