@@ -27,7 +27,7 @@ This was installed via Synology Package Center on Volume2.
 ## Integration with Other Services
 
 ### Jackett Integration
-- **URL**: Jacket: [http://your-nas-ip:8989](http://your-nas-ip:9117)
+- **URL**: Jacket: [http://your-nas-ip:9117](http://your-nas-ip:9117)
 
 ### Transmission Integration
 - **Host**: transmission
