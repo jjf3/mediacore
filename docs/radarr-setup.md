@@ -6,24 +6,24 @@ Radarr is responsible for managing and automating movie downloads in MediaCore.
 
 Radarr is configured to use the following directory structure:
 
-- **Download Path**: `/volume1/downloads/completed/movies`
+- **Download Path**: `/volume3`
 - **Movies Library Path**: `/volume4/Movies4`
 
 ## Installation Details
 
-- **Docker Volume**: `/volume1/docker/radarr/config`
+- **Docker Volume**: `/volume3`
 - **Docker Port**: 8310
 - **Docker Network**: media_network
 
 ## Configuration Screenshots
 
 ### Media Management Settings
-![Radarr Media Management](../images/radarr/media-management.png)
+This was installed via Synology Package Center on Volume3.
 
 ## Integration with Other Services
 
 ### Jackett Integration
-- **URL**: http://jackett:9117
+- **URL**: http://your-nas-ip:8310
 
 ### Transmission Integration
 - **Host**: transmission
