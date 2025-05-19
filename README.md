@@ -36,10 +36,9 @@ MediaCore integrates multiple open-source services to create a complete media se
 | Feature | Description | Status |
 |---------|-------------|--------|
 | | <div align="center">**Self-Contained Media System**</div> | |
-| Local M3U and XML files | Core playlist and metadata files | 🟡 In Progress |
-| Self-hosted EPG data server | Local EPG management | 🟡 In Progress |
-| Integrated WebGrab+ | EPG updates automation | 🔴 To Do |
-| Custom logo/data server | Artwork and metadata management | 🔴 To Do |
+| Local M3U and XML files | Core playlist and metadata files | ✅ Complete |
+| Self-hosted EPG data server | Local EPG management | ✅ Complete |
+| Nginx Self hosted portal | Seamless user interfaace | ✅ Complete |
 | |  <div align="center">**Content Automation**</div> | |
 | Sonarr integration | TV show tracking and downloads | ✅ Complete |
 | Radarr integration | Movie downloads | ✅ Complete |
@@ -48,7 +47,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 | | <div align="center">**Live TV & DVR**</div> | |
 | Channel categorization | Organization by content type | ✅ Complete |
 | EPG data management | Program guide handling | ✅ Complete |
-| DVR functionality | Live TV recording | 🟡 In Progress |
+| DVR functionality | Live TV recording | ✅ Complete |
 | Threadfin and XTeve | IPTV proxy integration | ✅ Complete |
 | **Reliability & Management** | Provided by Synology NAS | ✅ Complete |
 
@@ -57,6 +56,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 ### Prerequisites
 - Synology NAS or similar device
 - Docker and Docker Compose installed
+- Nano, Ngnix, php
 - Minimum 80 TB storage recommended (60TB main + 20TB backup)
 
 
