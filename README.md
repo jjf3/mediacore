@@ -135,7 +135,7 @@ Common issues and their solutions:
 
 - **Services not starting**: Check Docker logs with `docker-compose logs [service_name]`
 - **Media not showing up**: Verify file permissions and folder structure
-- **EPG data missing**: Check WebGrab+ configuration and logs
+- **EPG data missing**: Check host/provider
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
