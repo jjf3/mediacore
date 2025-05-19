@@ -1,0 +1,74 @@
+# Threafin Setup Guide
+
+This is my second Threafin which is responsible for managing linked IPTV files from a self hosted nginx Reverse Proxy + Caching load balancer.
+
+# Threadfin Setup Documentation
+
+## Container Configuration
+
+The Threadfin container is configured as follows:
+
+- **Container Name**: fyb3roptik-threadfin-1
+- **Container ID**: dd0fa76ce2236f496d3826e1fcbd9880c576f2a540920225c13a8981ec43afd3 (this is due to change)
+- **Image**: fyb3roptik/threadfin:latest
+- **Port Mapping**: 34445/tcp → 34401
+
+## File System Layout
+
+### Docker Container
+
+The Threadfin application is installed inside the Docker container with the following directory structure:
+
+- **Home Directory**: `/home/threadfin`
+  - **Binary Files**: `/home/threadfin/bin`
+  - **Configuration**: `/home/threadfin/conf`
+  - **Cache**: `/home/threadfin/cache`
+  - **Temporary Files**: `/tmp/threadfin`
+
+### Volume Mounts
+
+The container has a volume mount configured:
+- **Source**: `/volume3/docker`
+- **Destination**: `/docker`
+- **Mode**: `rw` (read-write)
+
+However, the Docker directory appears to be empty, suggesting that the application may not be using this volume for persistent storage as expected.
+
+## Accessing Configuration Files
+
+To access the Threadfin configuration files:
+
+1. SSH into your Synology NAS
+2. Execute a shell inside the container:
+   ```bash
+   docker exec -it 6a9a5089522c722e0a9c3e2ca8de0095f9eccc4e4e9e76547eaaa3763464c699 (yours is different) /bin/sh
+   ```
+3. Navigate to the configuration directory:
+   ```bash
+   ls -la /home/threadfin/conf
+   ```
+
+## Important Environment Variables
+
+The container has the following environment variables set:
+
+- **PATH**: `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/threadfin/bin`
+- **THREADFIN_BIN**: `/home/threadfin/bin`
+- **THREADFIN_CONF**: `/home/threadfin/conf`
+- **THREADFIN_HOME**: `/home/threadfin`
+- **THREADFIN_TEMP**: `/tmp/threadfin`
+- **THREADFIN_CACHE**: `/home/threadfin/cache`
+- **THREADFIN_UID**: `31337`
+- **THREADFIN_GID**: `31337`
+- **THREADFIN_USER**: `threadfin`
+
+## Functional Configuration:
+
+This theradfin is configured by using the direct link provided from a self hosted nginx Reverse Proxy + Caching load balancer.
+
+With this solution you can also use EPGBest to filter a m3u or EPG data
+
+## Notes
+
+- The configuration files are stored within the container at `/home/threadfin/conf`, but this setup uses the links from the portal access site instead. 
+- For future container recreations, you may need to manually back up and restore the configuration from within the container
