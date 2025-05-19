@@ -38,7 +38,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 | | <div align="center">**Self-Contained Media System**</div> | |
 | Local M3U and XML files | Core playlist and metadata files | ✅ Complete |
 | Self-hosted EPG data server | Local EPG management | ✅ Complete |
-| Nginx elf-hosted portal | Secure IPTV delivery portal & Load Balancer | ✅ Complete |
+| Nginx self-hosted portal | Secure IPTV delivery portal & Load Balancer | ✅ Complete |
 | |  <div align="center">**Content Automation**</div> | |
 | Sonarr integration | TV show tracking and downloads | ✅ Complete |
 | Radarr integration | Movie downloads | ✅ Complete |
