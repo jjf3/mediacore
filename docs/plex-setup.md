@@ -4,7 +4,7 @@ Plex is responsible for managing and playing media content mostly TV shows and s
 
 ## Storage Configuration
 
-Sonarr is configured to use the following directory structure:
+Plex is configured to use the following directory structure:
 
 - **Download Path**: `/volume2`
 - **TV Library Path**: `
@@ -26,7 +26,7 @@ This was installed via Synology Package Center on Volume2.
 
 ## Integration with Other Services
 
-### Jackett/Bazarr Integration
+### Arr Integrations
 - Jacket: [http://your-nas-ip:9117](http://your-nas-ip:9117)
 - Bazarr: [http://your-nas-ip:6767](http://your-nas-ip:6767)
 - Sonarr: [http://your-nas-ip:8989](http://your-nas-ip:8989)
@@ -36,9 +36,6 @@ This was installed via Synology Package Center on Volume2.
 
 
 
-### Transmission Integration
-- **Host**: transmission
-- **Port**: 9091
 
 ## Troubleshooting
 
