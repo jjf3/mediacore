@@ -70,5 +70,5 @@ With this solution you can also use EPGBest to filter a m3u or EPG data
 
 ## Notes
 
-- The configuration files are stored within the container at `/home/threadfin/conf`
+- The configuration files are stored within the container at `/home/threadfin/conf`, but this setup uses the IPTV provider supplied link instead. 
 - For future container recreations, you may need to manually back up and restore the configuration from within the container
