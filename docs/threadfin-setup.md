@@ -67,7 +67,7 @@ The container has the following environment variables set:
 This theradfin is configured by using the direct link provided by your IPTV service provider for both m3u and the EPG guide XML data
 With this solution you can also use EPGBest to filter a m3u or EPG data
 
-=## Notes
+## Notes
 
 - The configuration files are stored within the container at `/home/threadfin/conf`
 - For future container recreations, you may need to manually back up and restore the configuration from within the container
