@@ -76,7 +76,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 - Threafin: http://your-nas-ip:34401/web/ (linked files and EPGBest)
 - Plex: http://your-nas-ip:32400/
 - Emby: http://your-nas-ip:8096/
-- nginx: http:you-nas-ip:8085/
+- Nginx: http://you-nas-ip:8085/
 
 ## Configuration
 Below you'll find detailed setup guides for each component of the MediaCore system:
