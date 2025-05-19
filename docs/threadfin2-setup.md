@@ -7,8 +7,8 @@ Threadfin2 is responsible for self hosting IPTV files and server in MediaCore.
 Threadfin2 is configured to use the following directory structure:
 
 - **Config Path**: `/volume3/docker/threadfin/conf`
-- **IPTV Path**: `/home/threadfin/conf/channeltest.m3u`
-- **Guide Path**:  `/home/threadfin/conf/custom_epg.xml`
+- **IPTV Path**: `your-nas-ip:8085/playlist.m3u`
+ **Guide Path**:  `your-nas-ip:8085/custom_epg.xml`
 
 ## Installation Detail
 
