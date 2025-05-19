@@ -76,6 +76,7 @@ MediaCore integrates multiple open-source services to create a complete media se
 - Threafin: http://your-nas-ip:34401/web/ (linked files and EPGBest)
 - Plex: http://your-nas-ip:32400/
 - Emby: http://your-nas-ip:8096/
+- nginx: http:you-nas-ip:8085/
 
 ## Configuration
 Below you'll find detailed setup guides for each component of the MediaCore system:
@@ -92,7 +93,7 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 | Threadfin | M3U/EPG proxy | ✅ Complete | [Setup Guide](./docs/threadfin-setup.md) |
 | Threadfin2 | Additional proxy | 🟡 In Progress | [Setup Guide](./docs/threadfin2-setup.md) |
 | Transmission | Download client | ✅ Complete | [Setup Guide](./docs/transmission-setup.md) |
-| WebGrab+ | EPG data acquisition | 🔴 To Do | [Setup Guide](./docs/webgrab-setup.md) |
+| Nginx | url hosting | 🔴 To Do | [Setup Guide](./docs/nginx-setup.md) |
 | images | Add Images to Docs and Setup Guides | 🔴 To Do |  |
 
 ## Architecture
@@ -116,7 +117,7 @@ MediaCore uses a containerized architecture with Docker Compose for orchestratio
 ├─────────────────────────────┤
 │         IPTV System         │
 │  ┌─────────┐   ┌─────────┐  │
-│  │Threadfin│   │WebGrab+ │  │
+│  │Threadfin│   │  nginx  │  │
 │  └─────────┘   └─────────┘  │
 ├─────────────────────────────┤
 │       Media Servers         │
