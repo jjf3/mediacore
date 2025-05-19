@@ -1,4 +1,4 @@
-# Sonarr Setup Guide
+# Plex Setup Guide
 
 Plex is responsible for managing and playing media content mostly TV shows and some movies. 
 
