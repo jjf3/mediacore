@@ -34,11 +34,3 @@ This was installed via Synology Package Center on Volume2.
 - Transmission: [http://your-nas-ip:9091/web](http://your-nas-ip:9091/web)
 - Nginx: [http://your-nas-ip:8085/](http://your-nas-ip:8085)
 
-
-
-
-## Troubleshooting
-
-- **Common Issue**: Permissions problems
-  - **Solution**: Ensure proper permissions
-
