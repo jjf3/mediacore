@@ -1,4 +1,4 @@
-# Sonarr Setup Guide
+# Bazarr Setup Guide
 
 Bazarr is responsible for managing and automating subtitle downloads in MediaCore.
 
@@ -18,6 +18,9 @@ Sonarr is configured to use the following directory structure:
 
 ### Media Management Settings
 This was installed via Synology Package Center on Volume2.
+
+## Other Tools
+You can use Pasta to quckly change default subtitles in all your movie/tv shows. My Pasta instance was installed using dokcer and can be found on por 8087
 
 ## Troubleshooting
 
