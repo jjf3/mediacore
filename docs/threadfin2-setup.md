@@ -1,6 +1,6 @@
 # Threadfin2 Setup Guide
 
-Threadfin2 is responsible for managing local IPTV files and server in MediaCore.
+Threadfin2 is responsible for self hosting IPTV files and server in MediaCore.
 
 ## Storage Configuration
 
