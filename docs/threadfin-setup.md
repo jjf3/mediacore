@@ -64,7 +64,8 @@ The container has the following environment variables set:
 
 ## Functional Configuration:
 
-This theradfin is configured by using the direct link provided by your IPTV service provider for both m3u and the EPG guide XML data
+This theradfin is configured by using the direct link provided by your IPTV service provider for both m3u and the EPG guide XML data.
+
 With this solution you can also use EPGBest to filter a m3u or EPG data
 
 ## Notes
