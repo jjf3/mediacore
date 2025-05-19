@@ -8,7 +8,7 @@ Threadfin2 is configured to use the following directory structure:
 
 - **Config Path**: `/volume3/docker/threadfin/conf`
 - **IPTV Path**: `your-nas-ip:8085/playlist.m3u`
- **Guide Path**:  `your-nas-ip:8085/custom_epg.xml`
+-  **Guide Path**:  `your-nas-ip:8085/custom_epg.xml`
 
 ## Installation Detail
 
