@@ -76,7 +76,8 @@ MediaCore integrates multiple open-source services to create a complete media se
 - Threafin: http://your-nas-ip:34401/web/ (linked files and EPGBest)
 - Plex: http://your-nas-ip:32400/
 - Emby: http://your-nas-ip:8096/
-- Nginx: http://your-nas-ip:8085/
+- Bazarr: http://your-nas-ip:6767
+- Nginx: http://your-nas-ip:8085/  
 
 ## Configuration
 Below you'll find detailed setup guides for each component of the MediaCore system:
@@ -87,6 +88,7 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 |-----------|---------|--------|---------------|
 | Sonarr | TV show management | ✅ Complete | [Setup Guide](./docs/sonarr-setup.md) |
 | Radarr | Movie management | ✅ Complete | [Setup Guide](./docs/radarr-setup.md) |
+| Bazarr | Subtitle management | ✅ Complete | [Setup Guide](./docs/Bazarr-setup.md) |
 | Jackett | Indexer proxy | ✅ Complete | [Setup Guide](./docs/jackett-setup.md) |
 | Plex | Media server | ✅ Complete | [Setup Guide](./docs/plex-setup.md) |
 | Emby | Media server | 🔴 To Do | [Setup Guide](./docs/emby-setup.md) |
