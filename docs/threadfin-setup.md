@@ -11,7 +11,7 @@ The Threadfin container is configured as follows:
 - **Container Name**: fyb3roptik-threadfin-1
 - **Container ID**: dd0fa76ce2236f496d3826e1fcbd9880c576f2a540920225c13a8981ec43afd3 (this is due to change)
 - **Image**: fyb3roptik/threadfin:latest
-- **Port Mapping**: 34400/tcp → 34401
+- **Port Mapping**: 34401/tcp → 34401
 
 ## File System Layout
 
