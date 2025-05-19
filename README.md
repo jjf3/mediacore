@@ -88,7 +88,7 @@ Below you'll find detailed setup guides for each component of the MediaCore syst
 |-----------|---------|--------|---------------|
 | Sonarr | TV show management | ✅ Complete | [Setup Guide](./docs/sonarr-setup.md) |
 | Radarr | Movie management | ✅ Complete | [Setup Guide](./docs/radarr-setup.md) |
-| Bazarr + Pasta | Subtitle management | ✅ Complete | [Setup Guide](./docs/Bazarr-setup.md) |
+| Bazarr + Pasta | Subtitle management | ✅ Complete | [Setup Guide](./docs/bazarr-setup.md) |
 | Jackett | Indexer proxy | ✅ Complete | [Setup Guide](./docs/jackett-setup.md) |
 | Plex | Media server | ✅ Complete | [Setup Guide](./docs/plex-setup.md) |
 | Emby | Media server | 🔴 To Do | [Setup Guide](./docs/emby-setup.md) |
