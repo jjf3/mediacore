@@ -23,7 +23,7 @@ Threadfin2 is configured to use the following directory structure:
 
 - **Plex Integration**:
 
-[place holder for plex easier instructions]
+Use the Plex DVR scanner to automatically scan for turners. 
 
 ## Troubleshooting
 
