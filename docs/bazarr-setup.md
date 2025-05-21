@@ -20,7 +20,7 @@ Sonarr is configured to use the following directory structure:
 This was installed via Synology Package Center on Volume2.
 
 ## Other Tools
-You can use Pasta to quckly change default subtitles in all your movie/tv shows. My Pasta instance was installed using dokcer and can be found on port 8087
+You can use [Pasta](https://www.pastatool.com/) to quckly change default subtitles in all your movie/tv shows. My Pasta instance was installed using dokcer and can be found on port 8087
 
 ## Troubleshooting
 
