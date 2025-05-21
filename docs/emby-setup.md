@@ -4,7 +4,7 @@ Emby is responsible for managing and playing live TV.
 
 ## Storage Configuration
 
-Plex is configured to use the following directory structure:
+Emby is configured to use the following directory structure:
 
 - **Download Path**: `/volume2`
 
